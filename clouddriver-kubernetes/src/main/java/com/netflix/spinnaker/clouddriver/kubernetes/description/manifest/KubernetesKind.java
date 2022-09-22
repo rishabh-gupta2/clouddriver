@@ -65,6 +65,8 @@ public class KubernetesKind {
       createWithAlias("horizontalpodautoscaler", "hpa", KubernetesApiGroup.AUTOSCALING);
   public static final KubernetesKind INGRESS =
       createWithAlias("ingress", null, KubernetesApiGroup.NETWORKING_K8S_IO);
+  public static final KubernetesKind INGRESS =
+      createWithAlias("ingressRoute", null, KubernetesApiGroup.NETWORKING_K8S_IO);
   public static final KubernetesKind JOB = createWithAlias("job", null, KubernetesApiGroup.BATCH);
   public static final KubernetesKind LIMIT_RANGE =
       createWithAlias("limitRange", null, KubernetesApiGroup.NONE);
